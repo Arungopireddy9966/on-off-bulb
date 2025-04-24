@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb On/Off</title>
+    <link rel="stylesheet" href="bulb.css">
+
+
+
+
+</head>
+
+<body>
+
+
+    <body>
+
+        <div class="content">
+
+            <img id="bulb"
+                src="https://toppng.com/public/uploads/thumbnail/light-bulb-on-off-png-11553940208gbhhx7rj3t.png"
+                alt=""> <br><br>
+
+            <input type="button" onclick="myfunon()" id="on" value="ON">
+
+            <input type="button" onclick="myfunoff() " id="off" value="OFF">
+
+        </div>
+
+        <script>
+            function myfunon() {
+                document.getElementById("bulb").src = "https://toppng.com/uploads/thumbnail/light-bulb-on-off-png-11553940186oruayunwdd.png";
+            }
+            function myfunoff() {
+                document.getElementById("bulb").src = "https://toppng.com/public/uploads/thumbnail/light-bulb-on-off-png-11553940208gbhhx7rj3t.png";
+            }
+        </script>
+
+
+    </body>
+
+</html>
